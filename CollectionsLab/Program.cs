@@ -2,10 +2,7 @@
 {
     internal class Program
     {
-        public static IEnumerable<double> Mathoperations(int num1, int num2)
-        {
-            yield return num1 + num2;
-        }
+       
         static void Main(string[] args)
         {
             //MyStringCollection myCollection = new MyStringCollection(new List<string> { "apple", "banana", "cherry" });
@@ -25,10 +22,7 @@
             //}
 
             //=============================================================
-            foreach (var result in Mathoperations(5, 10))
-            {
-                Console.WriteLine(result);
-            }
+           
 
         }
 
